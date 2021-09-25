@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faDonate } from '@fortawesome/free-solid-svg-icons'
+import { faDonate } from '@fortawesome/free-solid-svg-icons'
 import './Agency.css'
 
 const Agency = (props) => {
@@ -8,7 +8,7 @@ const Agency = (props) => {
     // font awesome 
     const element = <FontAwesomeIcon icon={faDonate} />
 
-    // distructuring object
+    // destructuring object
     const { img, name, elaboration, headquater, birth, donate } = props.data;
 
     return (
