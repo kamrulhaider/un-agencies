@@ -1,21 +1,24 @@
 .header {
-  background-color: rgb(62, 123, 255);
+  background-image: url(../../Images/header.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 90%;
   margin: auto;
   border-radius: 10px;
 }
 .header h1 {
-  color: #ffffff;
+  color: #000000;
   text-transform: uppercase;
   margin-bottom: 0;
 }
 .header p {
-  color: #ffffff;
+  color: #313131;
   margin: auto;
   width: 80%;
 }
 .header h2 {
-  color: #ffffff;
+  color: #7c3636;
   margin: auto;
   padding-bottom: 5px;
 }

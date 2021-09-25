@@ -1,0 +1,33 @@
+.agency {
+  margin: 10px 5px;
+  padding-top: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-image: url(../../Images/agency.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: box-shadow 0.4s ease;
+}
+.agency:hover {
+  box-shadow: 3px 5px 20px rgb(75, 75, 75);
+}
+.agency-img {
+  margin-top: 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.agency h3 {
+  color: rgb(121, 38, 38);
+}
+.donate-btn {
+  margin-bottom: 15px;
+  background-color: rgb(66, 66, 255);
+  border: 0;
+  font-size: 20px;
+  padding: 5px 20px;
+  color: wheat;
+  border-radius: 20px;
+  cursor: pointer;
+}
