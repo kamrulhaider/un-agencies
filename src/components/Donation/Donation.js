@@ -1,4 +1,5 @@
 import React from 'react';
+import './Donation.css'
 
 const Donation = (props) => {
     const { donate } = props;
@@ -9,11 +10,12 @@ const Donation = (props) => {
         total = total + ammount.donate;
     }
     return (
-        <div>
+        <div className="donation-count">
             <h3>Total Donation: {donate.length}</h3>
             <h3>Total Amount: ${total}</h3>
             {
                 donate.map(agency => <h3
+                    className="name-style"
                     key={agency.key}
                 >{agency.name}</h3>)
             }

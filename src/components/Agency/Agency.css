@@ -1,6 +1,6 @@
 .agency {
   margin: 10px 5px;
-  padding-top: 5px;
+  padding: 10px 5px;
   border: 1px solid gray;
   border-radius: 10px;
   background-image: url(../../Images/agency.svg);
@@ -17,6 +17,10 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
+}
+.agency p {
+  font-size: 18px;
+  font-weight: 500;
 }
 .agency h3 {
   color: rgb(121, 38, 38);
